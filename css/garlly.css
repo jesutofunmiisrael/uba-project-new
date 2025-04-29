@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(250, 250, 250); */
+}
+
+.ga{
+    background-image: linear-gradient(0deg, rgba(20, 15, 15, 0.84), #524141c4, rgba(65, 52, 52, 0.89),
+    rgb(53, 41, 41)), url(../muti/images/WhatsApp\ Image\ 2025-04-29\ at\ 12.33.30.jpeg) ;
+    /* width: 100%; */
+    height: 25em;
+}
+.ga img{
+    /* width: 100%; */
+}
+.ga h1{
+    color: white;
+/* margin-top: 30px; */
+padding-left: 60px;
+padding-top: 200px;
+/* font-size: ; */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+@media (max-width: 768px){
+    .ga{
+        background-image: linear-gradient(0deg, rgba(20, 15, 15, 0.543), rgba(20, 15, 15, 0.566), rgba(20, 15, 15, 0.53),
+        rgba(20, 15, 15, 0.505)), url(../muti/images/uba-alumni-image-1.jpg) ;
+        background-size: 480px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* width: 100%; */
+        /* height: 25em; */
+
+    }
+    .ga img{
+        width: ;
+    }
+}
+
+.view{
+ margin-top: 90px;
+ margin-left: 460px;
+}
+
+.view img{
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: -30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.view h1{
+    font-size: 30px;
+    font:  sans-serif;
+    margin-left: -20px;
+}
+.wel{
+margin-top: 10px;
+}
+
+.ub{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+@media (max-width: 768px){
+    .view{
+        width: 100%;
+        margin-left: 80px;
+    }
+    .view h1{
+        width: 100%;
+        /* margin-left: -400px; */
+        float: left;
+    }
+    .view img{
+        width: 100%;
+        margin-left: -80px;
+    }
+    .wel{
+        font-size: 15px;
+        /* text-align: center; */
+        /* margin-left: -10px; */
+    }
+}
+
+
+.alu{
+    background-image: url(../muti/images/uba-alumni-6\ \(1\).jpg);
+    width: 100%;
+    text-align: center;
+    height:20em ;
+}
+
+ .alu h2{
+    color: white;
+ /* padding-left: 15em; */
+ padding-top: 60px;
+}
+.alu p{
+    color: white;
+    /* padding-left: 30em; */
+ /* padding-top: 60px; */
+}
+
+.alu button{
+    background-color: red;
+    border-radius: 20px;
+    width: 10em;
+    height: 3em;
+    border-color:red ;
+}
+
+.alu img{
+    width: 100%;
+    margin-top: 120px;
+}
+@media (max-width: 768px){
+    .alu{
+        /* width: 100%; */
+        background-image: url(../muti/images/uba-alumni-6\ \(1\).jpg);
+        background-size: 480px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* height: 30em; */
+    }
+
+    .alu h2{
+        color: white;
+        padding-top: 100px;
+    }
+    .alu img{
+        width: 100%;
+        margin-top: -15px;
+    }
+    
+}
+ footer{
+    
+     background-color: rgb(33, 33, 33); 
+    height: 10em;
+    /* margin-top: 0%; */
+ }
+.fot{
+    /* background-color: rgb(33, 33, 33); */
+    color: white;
+    display: flex;
+    /* height: 20em; */
+    gap: 140px;
+    padding-left: 60px;
+    /* margin-top: 30px; */
+    padding-top: 50px;
+}
+.fot img{
+    width: 10%;
+    height: 10%;
+}
+/* .us{
+    margin-top: 30px;
+} */
+
+
+@media (max-width: 768px){
+    .footer{
+    /* height: 12em */
+    }
+    .fot{
+        display: inline;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: -100px;
+        
+    }
+    .fot img{
+        margin-left: 200px;
+        margin-bottom: 100px;
+    }
+}
